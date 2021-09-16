@@ -1,6 +1,15 @@
 FUNCIONALIDADES PROYECTO
 
-1. GESTION DE USUARIO : OMAR SARMIENTO
+1. GESTION DE USUARIO : OMAR SARMIENTO(insertar,modificar,eliminar,listar)
+
+-El sistema permitira que un usuario se registre
+-El sisitema permitira que el usuario modifique la informacion.
+-El sistema permitira que el usuario elimine la informacion+
+-El sistema permitira que el usuario liste la informacion
+-El sistema tendra un campo en el formulario de registro de cedula que solo aceptara entre 6 y 9 digitos
+numericos.
+-
+
 
 2. GESTION DE NOMINA : ANDRES PEREZ
 

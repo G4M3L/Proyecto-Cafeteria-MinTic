@@ -1,0 +1,28 @@
+FUNCIONALIDADES PROYECTO
+
+1. GESTION DE USUARIO : OMAR SARMIENTO(insertar,modificar,eliminar,listar)
+
+-El sistema permitira que un usuario se registre
+-El sisitema permitira que el usuario modifique la informacion.
+-El sistema permitira que el usuario elimine la informacion+
+-El sistema permitira que el usuario liste la informacion
+-El sistema tendra un campo en el formulario de registro de cedula que solo aceptara entre 6 y 9 digitos
+numericos.
+-El sistema debe permitir administrar permisos para los usuarios- Manejar un Perfil ejemplo (Usurio final= comprador - Usuario operador = Vendedor(Quien opera la app en el pto de venta) - Usuario =Administrador (Quien tiene acceso a la DB)
+
+--NO FUNCIONALES
+
+-El sistema debe validar las credenciales para permitir modificar y eliminar informacion
+-Los permisos de acceso al sistema podrán ser cambiados solamente por el administrador de acceso a datos.
+-El sistema debe Validar que las claves registradas por el usuario no sean debiles
+-El sistema debe bloquear a cualquiere usuario que en 3 intentos ingrese mal la informacion tanto de usuario y contrasenia
+-El sistema debe validar los campos obligatorios al momento de realizar el registro
+
+
+2. GESTION DE NOMINA : ANDRES PEREZ
+
+3. GESTION DE VENTAS : DANIEL CALVO
+
+4.GESTION DE DESCUENTOS : LAURA SANTAMARIA
+
+5. SCRUM MASTER: OSCAR GUALDRON

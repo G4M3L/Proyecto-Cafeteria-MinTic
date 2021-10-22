@@ -2,27 +2,86 @@ FUNCIONALIDADES PROYECTO
 
 1. GESTION DE USUARIO : OMAR SARMIENTO(insertar,modificar,eliminar,listar)
 
--El sistema permitira que un usuario se registre
--El sisitema permitira que el usuario modifique la informacion.
--El sistema permitira que el usuario elimine la informacion+
--El sistema permitira que el usuario liste la informacion
--El sistema tendra un campo en el formulario de registro de cedula que solo aceptara entre 6 y 9 digitos
-numericos.
--El sistema debe permitir administrar permisos para los usuarios- Manejar un Perfil ejemplo (Usurio final= comprador - Usuario operador = Vendedor(Quien opera la app en el pto de venta) - Usuario =Administrador (Quien tiene acceso a la DB)
+-FUNCIONALES GESTION DE USUARIOS:
 
---NO FUNCIONALES
+-El sistema permitira el registro de usuarios
+-El sistema debe tener un formulario de registro donde se pida informacion del usuario para el registro en la base de datos:(Nombre,contraseña,Tipo de usuario,Telefono,etc)
+-El sistema debe permitir iniciar sesion
+-El sistema debe tener una pantalla donde se pueda registrar,editar,eliminar y actualizar usuarios exixtentes.
+-El sisitema permitira que el usuario administrador edite la informacion de usuarios registrados.
+-El sistema permitira que el usuario administrador elimine la informacion de usuarios registrados.
+-El sistema permitira que el usuario administrador consulte la informacion de usuarios regisrados.
+-El sistema debe permitir administrar permisos para los usuarios- Administradores=Permisos para todas las funcionalidades del programa - Operador=Empleado del punto de venta
+-El sistema debe validar las credenciales para permitir iniciar sesion, modificar y eliminar informacion
+-El sistema debe bloquear a cualquiere usuario que en 3 intentos ingrese mal la informacion tanto de usuario y contraseña
 
--El sistema debe validar las credenciales para permitir modificar y eliminar informacion
--Los permisos de acceso al sistema podrán ser cambiados solamente por el administrador de acceso a datos.
+-NO FUNCIONALES
+
+-Los permisos de acceso al sistema podrán ser cambiados solamente por el administrador del sistema
 -El sistema debe Validar que las claves registradas por el usuario no sean debiles
--El sistema debe bloquear a cualquiere usuario que en 3 intentos ingrese mal la informacion tanto de usuario y contrasenia
 -El sistema debe validar los campos obligatorios al momento de realizar el registro
-
+-El sistema tendra un campo en el formulario de registro de cedula que solo aceptara entre 6 y 9 digitos
 
 2. GESTION DE NOMINA : ANDRES PEREZ
 
+-FUNCIONALES:
+
+-El sistema debe tener un formulario para el calculo de la nomina, campos:salario base, dias laborados, dias libres, horas extra etc.
+-El sistema permitira que el usuario administrador ingrese  información de nómina en los campos: salario base, dias laborados, dias libres, horas extra.
+-El sistema permitira que el usuario administrador modifique información de nómina en los campos: salario base, dias laborados, dias libres, horas extra.
+-El sistema permitira que el usuario administrador elimine  información de nómina en los campos: salario base, dias laborados, dias libres, horas extra.
+-Los campos: salario base, dias laborados, dias libres, horas extra. acepta únicamente valores numéricos con dos decimales.
+-El campo fecha de pago acepta únicamente fechas anteriores al día de hoy (día actual).
+-El campo empleado permitirá seleccionar empleados registrados únicamente de una lista desplegable.
+
+NO FUNCIONALES
+-Los datos de nómina podran ser ingresados, modificados y eliminados unicamente por el usuario administrador
+-El sistema de gestión de nómina debe contar con un manual de usuario estructurado adecuadamente
+-El sistema debe tener interfaces gráficas bien organizadas y con combinación de colores verde y blanco
+-El sistema debe asegurar que los datos estén protegidos de acceso no autorizado
+
 3. GESTION DE VENTAS : DANIEL CALVO
 
+-FUNCIONALES:
+
+-El sistema debe tener un formulario para las ventas, donde se permita buscar el producto y agregarlo a la lista de venta como un carrito de compras.
+-El sistema debe tener un formulario para registrar productos.(precio, nombre, codigo,etc)
+-El sistema debe poder registrar productos.
+-El sistema debe poder modificar la informacion de productos ya existentes.
+-El sistema debe poder eliminar productos ya existentes.
+-El sistema debe poder consultar la informacion de productos ya existentes.
+-El sistema debe tener un buscador de precios de los productos.
+-El sistema debe tener un carrito de compras donde se vayan agregando los productos y se calcule la venta total.
+-El sistema debe mostrar la informacion al cliente.
+-El vendedor registrara la venta y recibira el dinero el caja.
+-El sistema debe registrar hora,fecha, y la informacion de cada venta.
+-El sistema permitira ver el total de las ventas registradas hasta la fecha. 
+
+-NO FUNCIONALES:
+
+-La informacion de precios y productos solo podrán ser cambiados solamente por usuario tipo administrador.
+-El sistema debe tener una interfaz grafica intuitiva y de facil manejo.
+-El sistema debe ser rapido y agil para las ventas.
+-Los usuarios tipo vendedores solo podran realizar ventas y consultas de productos, mas no modificaciones.
+
+
+
 4.GESTION DE DESCUENTOS : LAURA SANTAMARIA
+
+-FUNCIONALES:
+- El sistema permitirá al personal autorizado registrar información básica de los productos en las etiquetas: Nombre del producto, Precio de compra, Precio de venta, Ganancia.
+- El sistema permitirá al personal autorizado realizar modificaciones en la información registrada sobre los productos ya existentes.
+- El sistema permitirá al personal autorizado generar descuentos en los precios de los productos ya existentes, registrando la información de este en las etiquetas: Nombre del producto al que se le hará el descuento, Porcentaje del descuento, Valor monetari
+- El sistema permitirá al personal autorizado modificar la información que haya sido registrada en los descuentos.
+- El sistema permitirá al personal autorizado realizar descuentos en forma de combos, registrando la información de estos en las etiquetas: Cantidad de productos del combo, Nombre del producto 1, Nombre del producto 2, Nombre del producto n, Valor del combo
+- El sistema permitirá al personal autorizado modificar la información que haya sido registrada para la creación de los combos.
+
+-NO FUNCIONALES:
+-Los datos podrán ser ingresados, modificados y eliminados únicamente por los usuarios con la etiqueta de autorizado.
+-El permiso o etiqueta de autorizado podrá ser otorgado únicamente por el administrador.
+-El sistema registrará los datos de productos, descuentos y combos en una base de datos.
+-El sistema validará que todos los campos requeridos sean registrados por el usuario al generar nuevos descuentos y combos.
+-El sistema validará que el valor final de los productos después del descuento no sea menor o igual al valor por el que fue adquirido.
+
 
 5. SCRUM MASTER: OSCAR GUALDRON
